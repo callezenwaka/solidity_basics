@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DeclareFunction.sol": "VariableTypes"
+			"contracts/DeclareFunction.sol": "Declare"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/DeclareFunction.sol": {
-			"keccak256": "0x93aed82abffe2e45780359ae5b0ba371ee07e1d74b01562e176a8638141683ca",
+			"keccak256": "0x43d98ef825c2b92615c276c32ca8bd580597a4b8cbc9c4d76168624df2358efb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a3db0e7524de4afba9cf1ad035a62d558a97ac542511fc4d5ed76a9598171217",
-				"dweb:/ipfs/Qmdtam4ZuNpfjMMmsUhRwdNaVmX69kxfqRSeXbo1Bjoh5a"
+				"bzz-raw://af7d3b780b127e32c71fbf01ac20da7bd46de53e3bab3c97e2bddb100716652e",
+				"dweb:/ipfs/QmNnybY4M6FpnnvPZbrN4RKbigHsiyX6hYjnWByPrQQEBy"
 			]
 		}
 	},
