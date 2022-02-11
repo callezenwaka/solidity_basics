@@ -7,26 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "setValue",
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ControlStructures.sol": "DeclareFunction"
+			"contracts/ControlStructures.sol": "ControlStructures"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +41,11 @@
 	},
 	"sources": {
 		"contracts/ControlStructures.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+			"keccak256": "0x28461d9f91a43c1c9d3c86981d0ea280697879aea30b248354798c317f6336c2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://96b66b6bb9473cbc3b8bc8b67ce14f4f1098aec4a92572eaa086df620ba1c87c",
+				"dweb:/ipfs/QmTmCtfy6XrRy5DvKRS1PS3dBZYcEDA97xU9ip7PfPYaAA"
 			]
 		}
 	},

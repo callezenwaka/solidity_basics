@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "__getValue__",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getValue",
 				"outputs": [
 					{
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ControlStructures.sol": "DeclareFunction"
+			"contracts/FunctionVisibility.sol": "FunctionVisibility"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ControlStructures.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+		"contracts/FunctionVisibility.sol": {
+			"keccak256": "0xd3fc6fca8175c4efbf401a5f614f0ce94ad0c0a12eca1fb7b8598a90cffe60b1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://d1e6d8c6046e0497848f168a13a2ec38198de3d57665b29939455e58710c20ba",
+				"dweb:/ipfs/QmdyguKYpwQfoeqUDSj4RVdDiDd19Apxoh4dSKKdDd7D62"
 			]
 		}
 	},

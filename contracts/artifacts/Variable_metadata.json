@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ControlStructures.sol": "DeclareFunction"
+			"contracts/VariableVisibility.sol": "Variable"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ControlStructures.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+		"contracts/VariableVisibility.sol": {
+			"keccak256": "0xe8d1132e010b5fff61e43221a494ff9769a82cfe143e2596531b891695aa4b7f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://90e6bd4c1524b47677117b0377ccf4fb7fa821c7f646e6384fd998b806cd6ac4",
+				"dweb:/ipfs/Qmf2MmVBkZJ2FjGa3Lh5J5NS3J6CNizD3K6s7DsR2Lt9Fg"
 			]
 		}
 	},

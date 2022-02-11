@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getValue",
+				"name": "d",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,14 +19,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "setValue",
+				"inputs": [],
+				"name": "foo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ControlStructures.sol": "DeclareFunction"
+			"contracts/VariableVisibility.sol": "VariableVisibility"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ControlStructures.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+		"contracts/VariableVisibility.sol": {
+			"keccak256": "0x024c4dde3981ea5336cb48b1a4f671f44e5cbcb40eca0943fe34a2ce2c749d53",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://b7273992b42a9617b71ec9f0901aa5bc1dd3d335c7ec4fc6fcb23646b482284f",
+				"dweb:/ipfs/QmfBaTTs5zjFd9vkrQCXmYxTiqJJxwwMeYGkMWKPuZyHV5"
 			]
 		}
 	},
