@@ -6,8 +6,11 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [],
+				"name": "func",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -23,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Fallback.sol": "Fallback"
+			"contracts/Library.sol": "MLibrary"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -37,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Fallback.sol": {
-			"keccak256": "0x70d7bf587c10f8bea9bf79fb6e5ff388e7f24e586e12feedff4f76a37f6e3b4f",
+		"contracts/Library.sol": {
+			"keccak256": "0xd7c79a3f92327b76ba9b511bc27cdc0aae9362c0f920075baa4573925b8c5efd",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://900ff84431e7604da6b6c2e66490dd1d7ac45e22f28d356b291f2298d0a7552f",
-				"dweb:/ipfs/QmaA2bjhFNLeduQ2CXMzcbD2Hb8A3RAm2uvBkohyU91pTq"
+				"bzz-raw://8b609f81c5a7b61b5962fd3dab77f92667e198248a4eb4215a5f4548d592b485",
+				"dweb:/ipfs/QmcomRLT7h8EMydvqJgPd2hZVnWkX6uudNCpLWwZaQuEzs"
 			]
 		}
 	},

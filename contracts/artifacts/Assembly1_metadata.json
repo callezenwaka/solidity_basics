@@ -6,8 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [],
+				"name": "func",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -23,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Fallback.sol": "Fallback"
+			"contracts/Fallback.sol": "Assembly1"
 		},
 		"evmVersion": "london",
 		"libraries": {},

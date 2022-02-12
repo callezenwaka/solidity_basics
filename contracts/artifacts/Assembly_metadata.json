@@ -6,8 +6,17 @@
 	"output": {
 		"abi": [
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
+				"inputs": [],
+				"name": "func",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -23,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Fallback.sol": "Fallback"
+			"contracts/Fallback.sol": "Assembly"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -38,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Fallback.sol": {
-			"keccak256": "0x70d7bf587c10f8bea9bf79fb6e5ff388e7f24e586e12feedff4f76a37f6e3b4f",
+			"keccak256": "0x168d33c1a27fd436617fc1f9b92aff26479aece22508a46ea49cd14888ad3a24",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://900ff84431e7604da6b6c2e66490dd1d7ac45e22f28d356b291f2298d0a7552f",
-				"dweb:/ipfs/QmaA2bjhFNLeduQ2CXMzcbD2Hb8A3RAm2uvBkohyU91pTq"
+				"bzz-raw://4514f4ef1d61264f122474f192b7ee3765b732296461bb90adb1c43560e284a4",
+				"dweb:/ipfs/Qmd58yt1sggtH6CYunR3hgHS9sHEuv2Qv2D9JVNxysVoM4"
 			]
 		}
 	},
