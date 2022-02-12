@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "helloWorld",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionTwo.sol": "Two"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionTwo.sol": {
+			"keccak256": "0x591bad60940ceeef5b121f7faaa6357d271e05e02858950d14a2b11eea31c6d0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ac57fa192ab49d787667f4b7a4d8d44377053dc5942449f169151d525384176f",
+				"dweb:/ipfs/QmPrh7kdtZ4UThrc1kWkMNLC5LTk1NztJmTJP2GFHTNxEz"
+			]
+		}
+	},
+	"version": 1
+}

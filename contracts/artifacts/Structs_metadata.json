@@ -6,27 +6,27 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getValue",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "func1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
 					}
 				],
-				"name": "setValue",
+				"name": "func2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DeclareFunction.sol": "DeclareFunction"
+			"contracts/Structs.sol": "Structs"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DeclareFunction.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+		"contracts/Structs.sol": {
+			"keccak256": "0x790532bc02b9e911078c621356c747167433b327ee3321eeacae9951cfffa62e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://63f0038f9b47125b0c0bad660c710ebfb2cc3044b335a221b4951efbd00a3a44",
+				"dweb:/ipfs/QmPhSFFkiKqaishUcawgGsY3jBtFpQhVp1hWUV3p3WATaS"
 			]
 		}
 	},

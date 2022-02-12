@@ -6,27 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
+						"internalType": "address payable",
+						"name": "recipient",
+						"type": "address"
 					}
 				],
-				"name": "setValue",
+				"name": "sendEther",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DeclareFunction.sol": "DeclareFunction"
+			"contracts/TransferEther.sol": "TransferEther"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DeclareFunction.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+		"contracts/TransferEther.sol": {
+			"keccak256": "0xf4c053351c4fb2918f0d93829bc66de66b8d5cb012131534e3ed407a92d1951d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://f56d304bfcf65d2ca509dba5a6b1a7650faec7bade7cbd0ebcea7cdbf3874b48",
+				"dweb:/ipfs/QmQpmqqBtyUyhkpTZLctUzwZPPmysXqg58y3Tj7t9sgzky"
 			]
 		}
 	},

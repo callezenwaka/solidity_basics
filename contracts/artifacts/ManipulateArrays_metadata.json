@@ -7,26 +7,27 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "arr1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "arr2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "myArg",
+						"type": "uint256[]"
 					}
 				],
-				"name": "setValue",
+				"name": "arrFunc1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DeclareFunction.sol": "DeclareFunction"
+			"contracts/anipulateArrays.sol": "ManipulateArrays"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DeclareFunction.sol": {
-			"keccak256": "0xb3a78d3004cf0095188d96a4007855c9c56edeb28b85d673ccecea7de7b84706",
+		"contracts/anipulateArrays.sol": {
+			"keccak256": "0x176cfdd31a416f7231773513aabb3e3e12b999358cdb993f3ad9408e28845313",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b984483c777754bfa7ba818ba2add2de29f23a4f8999859cb3f6c4b78863cb86",
-				"dweb:/ipfs/QmdVR8MrWDQsbSUDreFm1RwqadEeeF419b9MAWxBqPFKw8"
+				"bzz-raw://b2cdc208ab198ebf8c71ec0d36efbe3beea905a6f46698316bc1097d98af82aa",
+				"dweb:/ipfs/Qmf5tA94ud7UPebcBDJ2YT4bjo1NkSrWwoqA2tkSVg77PT"
 			]
 		}
 	},

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enums.sol": "Enums"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enums.sol": {
+			"keccak256": "0x421b46adf80642c77abed2e8196195aefc61585e8373f85f4898716e018453c2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://16c604a6a90584bd3b69d4fd73e73177e485c6a0683392a1579d5da1524d4317",
+				"dweb:/ipfs/QmR6F3KccUSeWouGDtuARh3vbE7pgrJmRE1t9eNyFHvnoe"
+			]
+		}
+	},
+	"version": 1
+}
