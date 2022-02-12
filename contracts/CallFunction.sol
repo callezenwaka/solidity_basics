@@ -3,14 +3,14 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract One {
-    address addressB;
+    address addressTwo;
 
-    function setAddressB(address _addressB) external {
-        addressB = _addressB;
+    function setAddressB(address _addressTwo) external {
+        addressTwo = _addressTwo;
     }
 
     function callHelloWorld() external view returns(string memory) {
-        Two two = Two(addressB);
+        Two two = Two(addressTwo);
         return two.helloWorld();
     }
 }

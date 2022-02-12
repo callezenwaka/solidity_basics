@@ -5,14 +5,14 @@ pragma solidity >=0.7.0 <0.9.0;
 import './FunctionTwo.sol';
 
 contract One {
-    address addressB;
+    address addressTwo;
 
-    function setAddressB(address _addressB) external {
-        addressB = _addressB;
+    function setAddressTwo(address _addressTwo) external {
+        addressTwo = _addressTwo;
     }
 
     function callHelloWorld() external view returns(string memory) {
-        InterfaceTwo two = InterfaceTwo(addressB);
+        InterfaceTwo two = InterfaceTwo(addressTwo);
         return two.helloWorld();
     }
 }

@@ -6,16 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "helloWorld",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "func",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/CallFunction.sol": "Two"
+			"contracts/Constructor.sol": "Constructor"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/CallFunction.sol": {
-			"keccak256": "0x658f686c698cb942cd2d246860dd7bb9a778eed12a2190d45d0cfea1bbb46701",
+		"contracts/Constructor.sol": {
+			"keccak256": "0xbea0bdd5ae4859a7b85fccad01a7eb82a0b6ac89205500f7b8411e65f61c76a0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2bd7397b8a3eec2ea9918807e46ff6e4325567680b60c025820882d3e22bae7e",
-				"dweb:/ipfs/QmT8bC94ZPn3pcvtRKtgT8UfQUjkVMTMSuP9i2bCxrYbFU"
+				"bzz-raw://c4c3d82a5f3c1d748aa8361fbdecee27fcec7dee47c1f96c2d147d55f0dfd5b9",
+				"dweb:/ipfs/QmXDhFeLzontX2moCqQyCcnWGpsok8tX4VjAWCtAdPdnae"
 			]
 		}
 	},

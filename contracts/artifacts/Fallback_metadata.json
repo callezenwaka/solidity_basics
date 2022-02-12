@@ -4,21 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "helloWorld",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -32,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/CallFunction.sol": "Two"
+			"contracts/Fallback.sol": "Fallback"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/CallFunction.sol": {
-			"keccak256": "0x658f686c698cb942cd2d246860dd7bb9a778eed12a2190d45d0cfea1bbb46701",
+		"contracts/Fallback.sol": {
+			"keccak256": "0xb70354883284b88a288f831a4896f41c06d8a91737de6c2cf68eb5b58cbff685",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2bd7397b8a3eec2ea9918807e46ff6e4325567680b60c025820882d3e22bae7e",
-				"dweb:/ipfs/QmT8bC94ZPn3pcvtRKtgT8UfQUjkVMTMSuP9i2bCxrYbFU"
+				"bzz-raw://4c4e269d019d5bb79c42e42b23174bc930fdf784afa618184c21b8da63e4f0f4",
+				"dweb:/ipfs/QmdLdedn8BNgrZy4Rp4nRFQc7EQvPAiaTxVpditJyJtR2g"
 			]
 		}
 	},

@@ -2,16 +2,23 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-contract InterfaceTwo {
-    function helloWorld1() external pure returns(string memory);
-    function helloWorld2() external pure returns(string memory);
+interface InterfaceTwo {
+    function helloWorld() external pure returns(string memory);
+    function hello() external pure returns(string memory);
 }
+
+// abstract contract InterfaceTwo {
+//     function helloWorld() external virtual returns(string memory);
+//     function hello() external virtual returns(string memory);
+// }
+
 contract Two {
-    function helloWorld1() external pure returns(string memory) {
-        return "HelloWorld";
+    function helloWorld() external pure returns(string memory) {
+        // revert();
+        return "Hello World";
     }
 
-    function helloWorld2() external pure returns(string memory) {
-        return "HelloWorld";
+    function hello() external pure returns(string memory) {
+        return "Hello";
     }
 }

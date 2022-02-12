@@ -7,15 +7,9 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "helloWorld",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "createLoan",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/CallFunction.sol": "Two"
+			"contracts/SmartContract.sol": "LoanFactory"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/CallFunction.sol": {
-			"keccak256": "0x658f686c698cb942cd2d246860dd7bb9a778eed12a2190d45d0cfea1bbb46701",
+		"contracts/SmartContract.sol": {
+			"keccak256": "0x3b8260987bace163bb8b06df41fcf971e007795de2e858275c13eac463588088",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2bd7397b8a3eec2ea9918807e46ff6e4325567680b60c025820882d3e22bae7e",
-				"dweb:/ipfs/QmT8bC94ZPn3pcvtRKtgT8UfQUjkVMTMSuP9i2bCxrYbFU"
+				"bzz-raw://674c637ab8989d2042a5245204a92da664763b0b34bf28546b198adb54b1b972",
+				"dweb:/ipfs/QmXH1ayYZ34FkjToeTjbfWZ7BNAenBwMLsHA3Z1sBeKcaU"
 			]
 		}
 	},

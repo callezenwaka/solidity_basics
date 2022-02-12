@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "callHelloWorld",
+				"name": "hello",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,20 +15,20 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "helloWorld",
+				"outputs": [
 					{
-						"internalType": "address",
-						"name": "_addressTwo",
-						"type": "address"
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
-				"name": "setAddressTwo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExternalFunction.sol": "One"
+			"contracts/FunctionTwo.sol": "InterfaceTwo"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,14 +59,6 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExternalFunction.sol": {
-			"keccak256": "0xbf963e0ebed2cba32ab5c742c7d738ce89a086a0c1bed25f8da70455ce10218c",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://3db739216866a877f4c06cffabd9ecfee4c1f172c481ff9de5263e3d2aa54ceb",
-				"dweb:/ipfs/QmTmwmSUnb7fMeU3o1utmM5epakjaeEr6avUB7TCb95S4D"
-			]
-		},
 		"contracts/FunctionTwo.sol": {
 			"keccak256": "0x26a15f6b505a73feb1ef1962c9bb011e3f2b474d175ddef85df133022d6640d3",
 			"license": "GPL-3.0",

@@ -7,15 +7,23 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "helloWorld",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
+				"name": "func",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "willThrow",
+				"outputs": [],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "willThrowNewErr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +40,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/CallFunction.sol": "Two"
+			"contracts/Error.sol": "Err"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +54,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/CallFunction.sol": {
-			"keccak256": "0x658f686c698cb942cd2d246860dd7bb9a778eed12a2190d45d0cfea1bbb46701",
+		"contracts/Error.sol": {
+			"keccak256": "0x4339a227a73f11b11bb034946261d487c3dd038f09df4e2f2b2b2a3dbb3ba0c2",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2bd7397b8a3eec2ea9918807e46ff6e4325567680b60c025820882d3e22bae7e",
-				"dweb:/ipfs/QmT8bC94ZPn3pcvtRKtgT8UfQUjkVMTMSuP9i2bCxrYbFU"
+				"bzz-raw://d4d932874e9780c6bdd7d25a1afd3ef6e32c7749d39a561c214a3959da84ebdb",
+				"dweb:/ipfs/QmY3TtSGVeLK2sQvd3rqaMozw9vZey6qNTgJu4NwPbbX69"
 			]
 		}
 	},
